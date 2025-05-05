@@ -20,6 +20,11 @@ Package.resolved
 # CocoaPods
 Pods/
 
+# Config files
+Info.plist
+GoogleService-Info.plist
+Sipider_Web.xcdatamodeld
+
 # Carthage
 Carthage/Build/
 
