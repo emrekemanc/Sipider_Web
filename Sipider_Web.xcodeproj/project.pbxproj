@@ -14,7 +14,7 @@
 		D6EA2D1B2DC8914200ACDC9D /* Exceptions for "Sipider_Web" folder in "Sipider_Web" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				SuportingFiles/Info.plist,
 			);
 			target = D6EA2D052DC8914000ACDC9D /* Sipider_Web */;
 		};
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2262Z7D8F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sipider_Web/Info.plist;
+				INFOPLIST_FILE = Sipider_Web/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -175,7 +175,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2262Z7D8F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sipider_Web/Info.plist;
+				INFOPLIST_FILE = Sipider_Web/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

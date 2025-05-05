@@ -1,5 +1,6 @@
+
 //
-//  ViewController.swift
+//  SettingsViewModel.swift
 //  Sipider_Web
 //
 //  Created by Muhammet Emre Kemancı on 5.05.2025.
@@ -7,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +17,3 @@ class ViewController: UIViewController {
 
 
 }
-
