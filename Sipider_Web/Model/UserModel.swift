@@ -7,11 +7,10 @@
 
 import Foundation
 
-struct UserModel{
+struct UserModel: Codable{
     let id: String
     let user_name: String
     let email: String
-    let password: String
     let post_count: Int
     let created_at: Date
     let last_activity: Date

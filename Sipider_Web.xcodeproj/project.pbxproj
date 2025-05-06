@@ -11,7 +11,6 @@
 		D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DA92DC8A4B400ACDC9D /* FirebaseCore */; };
 		D6EA2DAC2DC8A4B400ACDC9D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DAB2DC8A4B400ACDC9D /* FirebaseFirestore */; };
 		D6EA2E952DC8AE9400ACDC9D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E942DC8AE9400ACDC9D /* FirebaseAnalytics */; };
-		D6EA2E972DC8AE9400ACDC9D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E962DC8AE9400ACDC9D /* FirebaseDatabase */; };
 		D6EA2E992DC8AE9400ACDC9D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E982DC8AE9400ACDC9D /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6EA2E972DC8AE9400ACDC9D /* FirebaseDatabase in Frameworks */,
 				D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */,
 				D6EA2DA82DC8A4B400ACDC9D /* FirebaseAuth in Frameworks */,
 				D6EA2E952DC8AE9400ACDC9D /* FirebaseAnalytics in Frameworks */,
@@ -99,6 +97,7 @@
 				D6EA2E942DC8AE9400ACDC9D /* FirebaseAnalytics */,
 				D6EA2E962DC8AE9400ACDC9D /* FirebaseDatabase */,
 				D6EA2E982DC8AE9400ACDC9D /* FirebaseStorage */,
+				D6EA2EF42DC8BEC300ACDC9D /* FirebaseInAppMessaging-Beta */,
 			);
 			productName = Sipider_Web;
 			productReference = D6EA2D062DC8914000ACDC9D /* Sipider_Web.app */;
@@ -403,6 +402,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		D6EA2EF42DC8BEC300ACDC9D /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
