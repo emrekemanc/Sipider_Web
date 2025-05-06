@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D6EA2DA82DC8A4B400ACDC9D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DA72DC8A4B400ACDC9D /* FirebaseAuth */; };
+		D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DA92DC8A4B400ACDC9D /* FirebaseCore */; };
+		D6EA2DAC2DC8A4B400ACDC9D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DAB2DC8A4B400ACDC9D /* FirebaseFirestore */; };
+		D6EA2E952DC8AE9400ACDC9D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E942DC8AE9400ACDC9D /* FirebaseAnalytics */; };
+		D6EA2E992DC8AE9400ACDC9D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E982DC8AE9400ACDC9D /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D6EA2D062DC8914000ACDC9D /* Sipider_Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sipider_Web.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +22,7 @@
 		D6EA2D1B2DC8914200ACDC9D /* Exceptions for "Sipider_Web" folder in "Sipider_Web" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				SuportingFiles/Info.plist,
 			);
 			target = D6EA2D052DC8914000ACDC9D /* Sipider_Web */;
 		};
@@ -36,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */,
+				D6EA2DA82DC8A4B400ACDC9D /* FirebaseAuth in Frameworks */,
+				D6EA2E952DC8AE9400ACDC9D /* FirebaseAnalytics in Frameworks */,
+				D6EA2DAC2DC8A4B400ACDC9D /* FirebaseFirestore in Frameworks */,
+				D6EA2E992DC8AE9400ACDC9D /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,13 @@
 			);
 			name = Sipider_Web;
 			packageProductDependencies = (
+				D6EA2DA72DC8A4B400ACDC9D /* FirebaseAuth */,
+				D6EA2DA92DC8A4B400ACDC9D /* FirebaseCore */,
+				D6EA2DAB2DC8A4B400ACDC9D /* FirebaseFirestore */,
+				D6EA2E942DC8AE9400ACDC9D /* FirebaseAnalytics */,
+				D6EA2E962DC8AE9400ACDC9D /* FirebaseDatabase */,
+				D6EA2E982DC8AE9400ACDC9D /* FirebaseStorage */,
+				D6EA2EF42DC8BEC300ACDC9D /* FirebaseInAppMessaging-Beta */,
 			);
 			productName = Sipider_Web;
 			productReference = D6EA2D062DC8914000ACDC9D /* Sipider_Web.app */;
@@ -107,6 +127,9 @@
 			);
 			mainGroup = D6EA2CFD2DC8914000ACDC9D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D6EA2D072DC8914000ACDC9D /* Products */;
 			projectDirPath = "";
@@ -147,7 +170,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2262Z7D8F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sipider_Web/Info.plist;
+				INFOPLIST_FILE = Sipider_Web/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -175,7 +198,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2262Z7D8F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sipider_Web/Info.plist;
+				INFOPLIST_FILE = Sipider_Web/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,6 +360,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6EA2DA72DC8A4B400ACDC9D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D6EA2DA92DC8A4B400ACDC9D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		D6EA2DAB2DC8A4B400ACDC9D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D6EA2E942DC8AE9400ACDC9D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D6EA2E962DC8AE9400ACDC9D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D6EA2E982DC8AE9400ACDC9D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D6EA2EF42DC8BEC300ACDC9D /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6EA2DA62DC8A4B400ACDC9D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6EA2CFE2DC8914000ACDC9D /* Project object */;
 }
