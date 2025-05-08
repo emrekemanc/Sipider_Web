@@ -65,7 +65,7 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="10"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="5PJ-uF-SWn" kind="showDetail" id="uEc-bE-fBl"/>
+                                    <segue destination="5PJ-uF-SWn" kind="show" id="N5j-Iz-Net"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,12 +87,12 @@
                     <connections>
                         <outlet property="emailTexField" destination="969-8X-BRz" id="XW1-Ef-ijI"/>
                         <outlet property="passwordTextField" destination="s5E-Sb-EuM" id="Dre-gw-zam"/>
-                        <segue destination="cJp-sD-wVh" kind="custom" id="NZf-QQ-aOC"/>
+                        <segue destination="cJp-sD-wVh" kind="presentation" identifier="tabBarController" modalPresentationStyle="fullScreen" id="NZf-QQ-aOC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87.786259541984734" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="88" y="57"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="pqr-Er-Eht">
@@ -209,7 +209,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YRr-eA-0b3">
-                                <rect key="frame" x="0.0" y="118" width="393" height="617"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="356" id="A9T-N8-6NN">
@@ -285,7 +285,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O2h-85-g22">
-                                <rect key="frame" x="20" y="138" width="353" height="353"/>
+                                <rect key="frame" x="20" y="79" width="353" height="353"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="353" id="HwK-rj-D2O"/>
                                     <constraint firstAttribute="width" constant="353" id="wPu-CY-C5e"/>

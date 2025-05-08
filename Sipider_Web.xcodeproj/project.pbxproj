@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6BD0C8A2DCB310400ABA921 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2E962DC8AE9400ACDC9D /* FirebaseDatabase */; };
+		D6BD0C8B2DCB310400ABA921 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2EF42DC8BEC300ACDC9D /* FirebaseInAppMessaging-Beta */; };
 		D6EA2DA82DC8A4B400ACDC9D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DA72DC8A4B400ACDC9D /* FirebaseAuth */; };
 		D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DA92DC8A4B400ACDC9D /* FirebaseCore */; };
 		D6EA2DAC2DC8A4B400ACDC9D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D6EA2DAB2DC8A4B400ACDC9D /* FirebaseFirestore */; };
@@ -44,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BD0C8B2DCB310400ABA921 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				D6BD0C8A2DCB310400ABA921 /* FirebaseDatabase in Frameworks */,
 				D6EA2DAA2DC8A4B400ACDC9D /* FirebaseCore in Frameworks */,
 				D6EA2DA82DC8A4B400ACDC9D /* FirebaseAuth in Frameworks */,
 				D6EA2E952DC8AE9400ACDC9D /* FirebaseAnalytics in Frameworks */,
