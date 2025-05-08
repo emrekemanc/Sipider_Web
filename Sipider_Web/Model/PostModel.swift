@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 struct PostModel{
     let id: String
     let user_id: String
